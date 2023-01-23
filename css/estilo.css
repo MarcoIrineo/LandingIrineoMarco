@@ -1,0 +1,117 @@
+body{
+    background-image: url(../img/spacio.jpeg);
+    font-family: sans-serif;
+    font-size: 00.8rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.arriba{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menus{
+    display: flex;
+    font-family: fantasy;
+    font-size: 1rem;
+    align-content: right;
+    gap: 3rem;
+    margin-left: 40rem;
+}
+
+header{
+    background: #85c054;
+}
+
+div#header,
+div#footer,
+div#content{
+    border: 1px solid grey;
+    margin: 5px;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: rgba(118, 224, 243, 0.849);
+}
+
+div#post {
+    border: 1px solid grey;
+    margin: 5px;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: #c3dfd7;
+}
+
+.grid {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.dentro{
+    font-family: serif;
+    border: 1px solid grey;
+    text-align: justify;
+    margin: 5px;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: #d2dfc8;
+}
+
+div#header,
+div#footer {
+    color: white;
+    background-color: #444;
+    margin-bottom: Spx;
+}
+
+div#content {
+    background-color: #566981;
+}
+
+div#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+div#menu ul li {
+    display: inline;
+    margin: Spx;
+}
+
+header,
+footer,
+section,
+article {
+    border: 1px solid grey;
+    margin: Spx;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: white;
+}
+
+header,
+footer {
+    color: white;
+    background: #62add8;
+    margin-bottom: Spx;
+}
+
+section {
+    background-color: #ddd;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
